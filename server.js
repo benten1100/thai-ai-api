@@ -322,23 +322,3 @@ loadModel().then(() => {
         console.log("🚀 THAI ULTRA AI V8 RUNNING ON " + PORT);
     });
 });
-{
-  "name": "kuy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "@xenova/transformers": "^2.17.2",
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "string-similarity": "^4.0.4"
-  }
-}
