@@ -21,10 +21,6 @@ let embedder;
 // ===============================
 const embeddingCache = new Map();
 
-app.post("/", (req, res) => {
-    res.json({ message: "Root working" });
-});
-
 // ===============================
 // LOAD MODEL
 // ===============================
