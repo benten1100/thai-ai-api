@@ -26,10 +26,7 @@ const embeddingCache = new Map();
 // ===============================
 async function loadModel() {
     console.log("⏳ Loading Embedding Model...");
-    embedder = await pipeline(
-        "feature-extraction",
-        "Xenova/multilingual-e5-base"
-    );
+    embedder = await pipeline("feature-extraction", "Xenova/multilingual-e5-base")
     console.log("✅ Model Loaded Successfully!");
 }
 
